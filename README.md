@@ -1,4 +1,6 @@
- # infraera
+
+
+# infraera
     
 1- Clone project using NetBeans Git Plug-in:
    
@@ -24,3 +26,10 @@
      After executing this command, you will see those images too:
      zookeeper, mysql, jhipster-registry, kafka, elasticsearch
  5- Once you have started your application using Docker, you have to specify localhost port like :"8080" and "8081" by clicking the application image on Kitematic. (from Settings-> Hostname/Ports)
+
+
+  SOME ERRORS NOTES:
+  An error might be encountered about liquibase which can be solved using this comment in the same folder on CMD: 
+  mvn liquibase:clearCheckSums
+  
+  Of course you need to define Maven_Path/bin in your PATH environmental variables if you haven't already done.
