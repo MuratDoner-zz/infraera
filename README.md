@@ -1,5 +1,6 @@
 
 
+
 # infraera
     
 1- Clone project using NetBeans Git Plug-in:
@@ -30,6 +31,7 @@
 
   SOME ERRORS NOTES:
   An error might be encountered about liquibase which can be solved using this comment in the same folder on CMD: 
-  mvn liquibase:clearCheckSums
+  
+    mvn liquibase:clearCheckSums
   
   Of course you need to define Maven_Path/bin in your PATH environmental variables if you haven't already done.
