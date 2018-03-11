@@ -35,3 +35,5 @@
     mvn liquibase:clearCheckSums
   
   Of course you need to define Maven_Path/bin in your PATH environmental variables if you haven't already done.
+  
+  If it does not work, just simply delete the current MySQL database and let JHipster re-create it.
