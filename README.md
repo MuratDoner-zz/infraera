@@ -1,3 +1,5 @@
+
+
 # infraera
     
 1- Clone project using NetBeans Git Plug-in:
@@ -37,3 +39,10 @@
   Of course you need to define Maven_Path/bin in your PATH environmental variables if you haven't already done.
   
   If it does not work, just simply delete the current MySQL database and let JHipster re-create it.
+
+  OPTIONAL NOTES:
+  
+  If you would like run "app" code from your local environment; you have to run jhipster-registry using this command instead of Kitematic:
+  
+
+     docker-compose -f src/main/docker/jhipster-registry.yml up
