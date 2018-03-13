@@ -46,3 +46,17 @@
   
 
      docker-compose -f src/main/docker/jhipster-registry.yml up
+
+  RUN || DEBUG NOTE:
+  
+  A Jhipster project is composed of two different projects in fact.
+  So if you would like run "app" code from your local environment you have to run each tiers individually.
+
+   1- Web Tier using Angular
+    
+    yarn run webpack:dev
+   
+   2- Service Tier using Spring.
+    Just right click to the class: InfraeraApp.java and click RUN || DEBUG.
+  
+  
